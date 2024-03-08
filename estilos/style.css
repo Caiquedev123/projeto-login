@@ -60,3 +60,42 @@ main{
     #formulario p{
         font-size: 1.2em;
     }
+
+    form input[type=submit] {
+        display: block;
+        font-size: 1em;
+        width: 100%;
+        height: 40px;
+        background-color: #49a09d;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    form input[type=submit]:hover {
+        background-color: #234e4d;
+    }
+
+    form a.botao{
+        display: block;
+        text-align: center;
+        font-size: 1em;
+        width: 100%;
+        margin-top: 5px;
+        height: 40px;
+        background-color: #49a09d;
+        border: 1px solid  #2fece5;
+        border-radius: 7px;
+        text-decoration: none;
+    }
+
+    form a.botao:hover{
+        background-color: aqua;
+    }
+
+    form a.botao{
+        font-size: 0.5em;
+    }
+
+
